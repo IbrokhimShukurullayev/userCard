@@ -1,0 +1,25 @@
+.home {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  &__left {
+    img {
+      width: 400px;
+      border-radius: 5px;
+    }
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h2 {
+      color: #000;
+      span {
+        color: #666;
+        font-size: 20px;
+      }
+    }
+  }
+}

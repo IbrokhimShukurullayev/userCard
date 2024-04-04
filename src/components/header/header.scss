@@ -1,0 +1,28 @@
+.header {
+  height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(38, 35, 92);
+  z-index: 99;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  &__link {
+    font-size: 18px;
+    color: #fff;
+  }
+}
